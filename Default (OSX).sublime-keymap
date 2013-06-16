@@ -1,0 +1,170 @@
+[
+    {
+        "keys": ["ctrl+f"],
+        "command": "move",
+        "args": {
+            "by": "characters",
+            "forward": true
+        }
+    },
+    {
+        "keys": ["ctrl+b"],
+        "command": "move",
+        "args": {
+            "by": "characters",
+            "forward": false
+        }
+    },
+    {
+        "keys": ["ctrl+n"],
+        "command": "move",
+        "args": {
+            "by": "lines",
+            "forward": true
+        }
+    },
+    {
+        "keys": ["ctrl+p"],
+        "command": "move",
+        "args": {
+            "by": "lines",
+            "forward": false
+        }
+    },
+    {
+        "keys": ["ctrl+a"],
+        "command": "move_to",
+        "args": {
+            "to": "bol"
+        }
+    },
+    {
+        "keys": ["ctrl+e"],
+        "command": "move_to",
+        "args": {
+            "to": "eol"
+        }
+    },
+    {
+        "keys": ["alt+f"],
+        "command": "move",
+        "args": {
+            "by": "subword_ends",
+            "forward": true,
+            "separaters": false,
+            "punct_begin": false
+        }
+    },
+    {
+        "keys": ["alt+b"],
+        "command": "move",
+        "args": {
+            "by": "subwords",
+            "forward": false
+        }
+    },
+    {
+        "keys": ["alt+shift+."],
+        "command": "move_to",
+        "args": {
+            "to": "eof"
+        }
+    },
+    {
+        "keys": ["alt+shift+,"],
+        "command": "move_to",
+        "args": {
+            "to": "bof"
+        }
+    },
+    {
+        "keys": ["ctrl+x", "ctrl+s"],
+        "command": "save"
+    },
+    {
+        "keys": ["ctrl+x", "ctrl+c"],
+        "command": "close"
+    },
+    {
+        "keys": ["ctrl+x", "h"],
+        "command": "select_all"
+    },
+    {
+        "keys": ["ctrl+/"],
+        "command": "undo"
+    },
+    {
+        "keys": ["ctrl+u"],
+        "command": "undo"
+    },
+    {
+        "keys": ["ctrl+r"],
+        "command": "redo"
+    },
+    {
+        "keys": ["ctrl+s"],
+        "command": "show_panel",
+        "args": {
+            "panel": "find",
+            "reverse": false
+        }
+    },
+    {
+        "keys": ["ctrl+g"],
+        "command": "hide_panel",
+        "args": {"cancel": true},
+        "context": [
+            { "key": "panel_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    {
+        "keys": ["ctrl+g"],
+        "command": "hide_overlay",
+        "context": [
+            { "key": "overlay_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    {
+        "keys": ["ctrl+g"],
+        "command": "hide_auto_complete",
+        "context": [
+            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
+        ]
+    },
+    {
+        "keys": ["ctrl+shift+p"],
+        "command": "swap_line_up"
+    },
+    {
+        "keys": ["ctrl+shift+n"],
+        "command": "swap_line_down"
+    },
+    {
+        "keys": ["ctrl+w"],
+        "command": "cut"
+    },
+    {
+        "keys": ["alt+w"],
+        "command": "copy"
+    },
+    {
+        "keys": ["ctrl+y"],
+        "command": "paste"
+    },
+    {
+        "keys": ["ctrl+shift+y"],
+        "command": "paste_and_indent"
+    },
+    {
+        "keys": ["ctrl+space"],
+        "command": "set_mark"
+    },
+    {
+        "keys": ["ctrl+l"],
+        "command": "show_at_center"
+    },
+    {
+        "keys": ["alt+/"],
+        "command": "auto_complete"
+    }
+]
