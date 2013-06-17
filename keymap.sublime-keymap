@@ -77,6 +77,7 @@
             "to": "bof"
         }
     },
+    { "keys": ["ctrl+g"], "command": "escape" },
     { "keys": ["ctrl+x", "ctrl+s"], "command": "save" },
     { "keys": ["ctrl+x", "ctrl+c"], "command": "close" },
     { "keys": ["ctrl+x", "h"], "command": "select_all" },
@@ -90,28 +91,6 @@
             "panel": "find",
             "reverse": false
         }
-    },
-    {
-        "keys": ["ctrl+g"],
-        "command": "hide_panel",
-        "args": {"cancel": true},
-        "context": [
-            { "key": "panel_visible", "operator": "equal", "operand": true }
-        ]
-    },
-    {
-        "keys": ["ctrl+g"],
-        "command": "hide_overlay",
-        "context": [
-            { "key": "overlay_visible", "operator": "equal", "operand": true }
-        ]
-    },
-    {
-        "keys": ["ctrl+g"],
-        "command": "hide_auto_complete",
-        "context": [
-            { "key": "auto_complete_visible", "operator": "equal", "operand": true }
-        ]
     },
     { "keys": ["ctrl+shift+p"], "command": "swap_line_up" },
     { "keys": ["ctrl+shift+n"], "command": "swap_line_down" },
