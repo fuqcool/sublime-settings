@@ -64,6 +64,16 @@
         }
     },
     {
+        "keys": ["ctrl+v"],
+        "command": "move",
+        "args": { "by": "pages", "forward": true }
+    },
+    {
+        "keys": ["alt+v"],
+        "command": "move",
+        "args": { "by": "pages", "forward": false }
+    },
+    {
         "keys": ["alt+shift+."],
         "command": "move_to",
         "args": {
