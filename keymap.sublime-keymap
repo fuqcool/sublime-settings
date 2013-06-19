@@ -2,48 +2,32 @@
     {
         "keys": ["ctrl+f"],
         "command": "move",
-        "args": {
-            "by": "characters",
-            "forward": true
-        }
+        "args": { "by": "characters", "forward": true }
     },
     {
         "keys": ["ctrl+b"],
         "command": "move",
-        "args": {
-            "by": "characters",
-            "forward": false
-        }
+        "args": { "by": "characters", "forward": false }
     },
     {
         "keys": ["ctrl+n"],
         "command": "move",
-        "args": {
-            "by": "lines",
-            "forward": true
-        }
+        "args": { "by": "lines", "forward": true }
     },
     {
         "keys": ["ctrl+p"],
         "command": "move",
-        "args": {
-            "by": "lines",
-            "forward": false
-        }
+        "args": { "by": "lines", "forward": false }
     },
     {
         "keys": ["ctrl+a"],
         "command": "move_to",
-        "args": {
-            "to": "bol"
-        }
+        "args": { "to": "bol" }
     },
     {
         "keys": ["ctrl+e"],
         "command": "move_to",
-        "args": {
-            "to": "eol"
-        }
+        "args": { "to": "eol" }
     },
     {
         "keys": ["alt+f"],
@@ -58,10 +42,7 @@
     {
         "keys": ["alt+b"],
         "command": "move",
-        "args": {
-            "by": "subwords",
-            "forward": false
-        }
+        "args": { "by": "subwords", "forward": false }
     },
     {
         "keys": ["ctrl+v"],
@@ -76,16 +57,12 @@
     {
         "keys": ["alt+shift+."],
         "command": "move_to",
-        "args": {
-            "to": "eof"
-        }
+        "args": { "to": "eof" }
     },
     {
         "keys": ["alt+shift+,"],
         "command": "move_to",
-        "args": {
-            "to": "bof"
-        }
+        "args": { "to": "bof" }
     },
     { "keys": ["ctrl+g"], "command": "escape" },
     { "keys": ["ctrl+x", "ctrl+s"], "command": "save" },
