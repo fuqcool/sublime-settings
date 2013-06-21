@@ -79,6 +79,14 @@
             "reverse": false
         }
     },
+    {
+        "keys": ["ctrl+shift+s"],
+        "command": "show_panel",
+        "args": {
+            "panel": "find_in_files",
+            "reverse": false
+        }
+    },
     { "keys": ["ctrl+shift+p"], "command": "swap_line_up" },
     { "keys": ["ctrl+shift+n"], "command": "swap_line_down" },
     { "keys": ["ctrl+w"], "command": "cut" },
