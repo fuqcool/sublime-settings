@@ -33,7 +33,7 @@
         "keys": ["alt+f"],
         "command": "move",
         "args": {
-            "by": "subword_ends",
+            "by": "word_ends",
             "forward": true,
             "separaters": false,
             "punct_begin": false
@@ -42,7 +42,7 @@
     {
         "keys": ["alt+b"],
         "command": "move",
-        "args": { "by": "subwords", "forward": false }
+        "args": { "by": "words", "forward": false }
     },
     {
         "keys": ["ctrl+v"],
